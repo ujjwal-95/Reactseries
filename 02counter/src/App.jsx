@@ -9,9 +9,12 @@ let [counter,setCounter]=useState(1)
 
   //let counter=1
   const addvalue=()=>{
-    console.log("clicked",counter);
-    counter+=1
-    setCounter(counter)
+ 
+   // counter+=1
+    setCounter(counter =>counter+1)
+    setCounter(counter =>counter+1)
+    setCounter(counter =>counter+1)
+    setCounter(counter =>counter+1)
     
   } 
   const removevalue=()=>{
